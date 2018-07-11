@@ -3,7 +3,6 @@
     {
       "build_output_subfolder": "configmgr1",
       "monikers": [],
-      "moniker_ranges": [],
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
@@ -19,7 +18,6 @@
     {
       "build_output_subfolder": "configmgr2",
       "monikers": [],
-      "moniker_ranges": [],
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
@@ -28,6 +26,9 @@
       "docset_name": "configmgr2",
       "build_source_folder": "configmgr2",
       "locale": "en-us",
+      "moniker_ranges": [
+        "aaaa"
+      ],
       "open_to_public_contributors": true,
       "build_entry_point": "docs",
       "template_folder": "_themes"
