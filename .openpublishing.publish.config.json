@@ -37,16 +37,16 @@
   "skip_source_output_uploading": false,
   "notification_subscribers": [],
   "branches_to_filter": [],
-  "need_preview_pull_request": false,
   "contribution_branch_mappings": {},
   "dependent_repositories": [
     {
+      "branch_mapping": {},
       "path_to_root": "_themes",
       "url": "https://github.com/Microsoft/templates.docs.msft",
-      "branch": "master",
-      "branch_mapping": {}
+      "branch": "master"
     }
   ],
   "branch_target_mapping": {},
+  "need_preview_pull_request": false,
   "need_generate_pdf_url_template": false
 }
