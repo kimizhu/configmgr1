@@ -1,5 +1,11 @@
 {
   "build": {
+    "overwrite": [],
+    "externalReference": [],
+    "fileMetadata": {},
+    "template": [],
+    "dest": "configmgr2",
+    "markdownEngineName": "markdig",
     "content": [
       {
         "files": [
@@ -11,10 +17,10 @@
           "**/includes/**",
           "_themes/**",
           "_themes.pdf/**",
-          "README.md",
           "LICENSE",
           "LICENSE-CODE",
-          "ThirdPartyNotices"
+          "ThirdPartyNotices",
+          "README1.md"
         ]
       }
     ],
@@ -32,15 +38,9 @@
         ]
       }
     ],
-    "overwrite": [],
-    "externalReference": [],
     "globalMetadata": {
       "breadcrumb_path": "/configmgr2/breadcrumb/toc.json",
       "extendBreadcrumb": true
-    },
-    "fileMetadata": {},
-    "template": [],
-    "dest": "configmgr2",
-    "markdownEngineName": "markdig"
+    }
   }
 }
