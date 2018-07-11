@@ -1,5 +1,11 @@
 {
   "build": {
+    "overwrite": [],
+    "externalReference": [],
+    "fileMetadata": {},
+    "template": [],
+    "dest": "configmgr1",
+    "markdownEngineName": "markdig",
     "content": [
       {
         "files": [
@@ -32,15 +38,9 @@
         ]
       }
     ],
-    "overwrite": [],
-    "externalReference": [],
     "globalMetadata": {
       "breadcrumb_path": "/configmgr1/breadcrumb/toc.json",
       "extendBreadcrumb": true
-    },
-    "fileMetadata": {},
-    "template": [],
-    "dest": "configmgr1",
-    "markdownEngineName": "markdig"
+    }
   }
 }
