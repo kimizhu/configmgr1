@@ -40,8 +40,7 @@
     ],
     "globalMetadata": {
       "breadcrumb_path": "/configmgr2/breadcrumb/toc.json",
-      "extendBreadcrumb": true,
-      "main": 1
+      "extendBreadcrumb": true
     }
   }
 }
