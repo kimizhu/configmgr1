@@ -23,13 +23,13 @@
         "ManagedReference": "Content",
         "RestApi": "Content"
       },
-      "moniker_ranges": [],
       "docset_name": "configmgr2",
       "build_source_folder": "configmgr2",
       "locale": "en-us",
       "open_to_public_contributors": false,
       "build_entry_point": "docs",
-      "template_folder": "_themes"
+      "template_folder": "_themes",
+      "moniker_ranges": []
     }
   ],
   "skip_source_output_uploading": false,
@@ -42,9 +42,9 @@
       "branch": "master"
     }
   ],
+  "need_generate_pdf_url_template": false,
   "branches_to_filter": [],
-  "contribution_branch_mappings": {},
-  "branch_target_mapping": {},
   "need_preview_pull_request": false,
-  "need_generate_pdf_url_template": false
+  "contribution_branch_mappings": {},
+  "branch_target_mapping": {}
 }
