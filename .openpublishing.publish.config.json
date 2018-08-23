@@ -34,7 +34,7 @@
       "locale": "en-us",
       "moniker_ranges": [],
       "monikers": [],
-      "open_to_public_contributors": true,
+      "open_to_public_contributors": false,
       "template_folder": "_themes",
       "type_mapping": {
         "Conceptual": "Content",
