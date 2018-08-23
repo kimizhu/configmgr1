@@ -1,17 +1,7 @@
 {
   "build": {
-    "overwrite": [],
-    "externalReference": [],
-    "fileMetadata": {},
-    "template": [],
-    "dest": "configmgr2",
-    "markdownEngineName": "markdig",
     "content": [
       {
-        "files": [
-          "**/*.md",
-          "**/*.yml"
-        ],
         "exclude": [
           "**/obj/**",
           "**/includes/**",
@@ -21,27 +11,37 @@
           "LICENSE-CODE",
           "ThirdPartyNotices",
           "README1.md"
+        ],
+        "files": [
+          "**/*.md",
+          "**/*.yml"
         ]
       }
     ],
+    "dest": "configmgr2",
+    "externalReference": [],
+    "fileMetadata": {},
+    "globalMetadata": {
+      "breadcrumb_path": "/configmgr2/breadcrumb/toc.json",
+      "extendBreadcrumb": true,
+      "main": 1
+    },
+    "markdownEngineName": "markdig",
+    "overwrite": [],
     "resource": [
       {
-        "files": [
-          "**/*.png",
-          "**/*.jpg"
-        ],
         "exclude": [
           "**/obj/**",
           "**/includes/**",
           "_themes/**",
           "_themes.pdf/**"
+        ],
+        "files": [
+          "**/*.png",
+          "**/*.jpg"
         ]
       }
     ],
-    "globalMetadata": {
-      "breadcrumb_path": "/configmgr2/breadcrumb/toc.json",
-      "extendBreadcrumb": true,
-      "main": 1
-    }
+    "template": []
   }
 }
