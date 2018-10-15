@@ -24,8 +24,7 @@
     "globalMetadata": {
       "breadcrumb_path": "/configmgr2/breadcrumb/toc.json",
       "extendBreadcrumb": true,
-      "main": 1,
-      "myabc": "abc123"
+      "main": 1
     },
     "markdownEngineName": "markdig",
     "overwrite": [],
