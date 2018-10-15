@@ -32,9 +32,7 @@
       "build_source_folder": "configmgr2",
       "docset_name": "configmgr2",
       "locale": "en-us",
-      "moniker_ranges": [
-        " netframework-4.5.2  ||  netframework-4.6.2 "
-      ],
+      "moniker_ranges": [],
       "monikers": [],
       "open_to_public_contributors": false,
       "template_folder": "_themes",
