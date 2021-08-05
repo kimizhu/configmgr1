@@ -1,50 +1,49 @@
 {
-  "docsets_to_publish": [
-    {
-      "build_output_subfolder": "configmgr1",
-      "monikers": [],
-      "type_mapping": {
-        "Conceptual": "Content",
-        "ManagedReference": "Content",
-        "RestApi": "Content"
-      },
-      "docset_name": "configmgr1",
-      "build_source_folder": "configmgr1",
-      "locale": "en-us",
-      "open_to_public_contributors": true,
-      "build_entry_point": "docs",
-      "template_folder": "_themes"
-    },
-    {
-      "build_output_subfolder": "configmgr2",
-      "monikers": [],
-      "type_mapping": {
-        "Conceptual": "Content",
-        "ManagedReference": "Content",
-        "RestApi": "Content"
-      },
-      "docset_name": "configmgr2",
-      "build_source_folder": "configmgr2",
-      "locale": "en-us",
-      "moniker_ranges": [],
-      "open_to_public_contributors": false,
-      "build_entry_point": "docs",
-      "template_folder": "_themes"
-    }
-  ],
-  "skip_source_output_uploading": false,
-  "notification_subscribers": [],
-  "branches_to_filter": [],
-  "need_preview_pull_request": false,
   "contribution_branch_mappings": {},
   "dependent_repositories": [
     {
-      "path_to_root": "_themes",
-      "url": "https://github.com/Microsoft/templates.docs.msft",
       "branch": "master",
-      "branch_mapping": {}
+      "branch_mapping": {},
+      "path_to_root": "_themes",
+      "url": "https://github.com/Microsoft/templates.docs.msft"
     }
   ],
-  "branch_target_mapping": {},
-  "need_generate_pdf_url_template": false
+  "docsets_to_publish": [
+    {
+      "build_entry_point": "docs",
+      "build_output_subfolder": "configmgr1",
+      "build_source_folder": "configmgr1",
+      "docset_name": "configmgr1",
+      "locale": "en-us",
+      "monikers": [],
+      "open_to_public_contributors": true,
+      "template_folder": "_themes",
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content"
+      }
+    },
+    {
+      "build_entry_point": "docs",
+      "build_output_subfolder": "configmgr2",
+      "build_source_folder": "configmgr2",
+      "docset_name": "configmgr2",
+      "locale": "en-us",
+      "moniker_ranges": [],
+      "monikers": [],
+      "open_to_public_contributors": false,
+      "template_folder": "_themes",
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content"
+      }
+    }
+  ],
+  "need_generate_pdf_url_template": false,
+  "need_pr_comments": true,
+  "need_preview_pull_request": true,
+  "notification_subscribers": [],
+  "skip_source_output_uploading": false
 }

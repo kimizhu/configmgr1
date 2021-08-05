@@ -30,17 +30,33 @@
           "**/*.png",
           "**/*.jpg"
         ],
+      }
+    ],
+    "dest": "configmgr1",
+    "externalReference": [],
+    "fileMetadata": {},
+    "globalMetadata": {
+      "breadcrumb_path": "/configmgr1/breadcrumb/toc.json",
+      "extendBreadcrumb": true
+    },
+    "markdownEngineName": "markdig",
+    "overwrite": [],
+    "resource": [
+      {
+
         "exclude": [
           "**/obj/**",
           "**/includes/**",
           "_themes/**",
           "_themes.pdf/**"
+
+        ],
+        "files": [
+          "**/*.png",
+          "**/*.jpg"
         ]
       }
     ],
-    "globalMetadata": {
-      "breadcrumb_path": "/configmgr1/breadcrumb/toc.json",
-      "extendBreadcrumb": true
-    }
+    "template": []
   }
 }
